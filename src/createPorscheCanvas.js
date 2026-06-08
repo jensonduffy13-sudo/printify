@@ -3,7 +3,8 @@ import { createClient } from './printifyClient.js';
 
 const printify = createClient(process.env.PRINTIFY_API_KEY);
 
-const variantIds = [91624, 91626, 91629, 91630, 91633, 91635];
+// Vertical sizes: 9x12, 12x16, 16x20, 16x24, 18x24, 24x36
+const variantIds = [91640, 91643, 91646, 91647, 91648, 91653];
 
 const product = {
   title: 'Porsche Wall Art Canvas Print | Classic Sports Car Poster | Car Enthusiast Gift',
